@@ -1,0 +1,127 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 120rem;
+  margin: 5rem auto;
+  background-color: #ccc;
+  gap: 3rem;
+  border-radius: 1.5rem;
+  box-shadow: rgba(120, 120, 120, 0.3) 0 0.7rem 2.9rem 0;
+}
+
+.header {
+  justify-items: center;
+}
+
+.header h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.header .logo-img {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+.header p {
+  margin: 2rem;
+  font-size: 2.2rem;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  margin: 2rem 3rem;
+}
+
+.product {
+  box-sizing: border-box;
+  flex: 0 1 30%;
+  justify-content: center;
+  border: none;
+  border-radius: 1.5rem;
+  box-shadow: rgba(120, 120, 120, 0.3) 0 0.7rem 2.9rem 0;
+  background-color: #fff;
+  min-width: 30rem;
+  padding: 1rem 4rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.product .product-img {
+  width: 25rem;
+  height: 20rem;
+  margin-top: 3rem;
+  align-self: center;
+  border-radius: 1.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.product .product-name {
+  align-self: center;
+  margin: 1.6rem;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.product .product-price {
+  align-self: center;
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.product .btn {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 2rem 3rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: #2ac4d2;
+  border: none;
+  border-radius: 1rem;
+}
+
+/* HOVER */
+
+.product-img:hover,
+.product-name:hover,
+.product-price:hover {
+  cursor: pointer;
+  color: #37858c;
+}
+
+.product .btn:hover {
+  cursor: pointer;
+  color: #37858c;
+  background-color: #d3f1ed;
+}
+.product .btn:active {
+  color: #88eaf3;
+  background-color: #0b6668;
+}
+
+.product:hover {
+  box-shadow: #1f919b 0 0.7rem 2.9rem 0;
+}
+
+.product:hover .product-img {
+  transform: scale(1.03);
+}
