@@ -86,6 +86,11 @@ html {
   font-weight: 500;
 }
 
+.product-price .original-price {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
 .product .btn {
   width: 60%;
   margin: auto;
