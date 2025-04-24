@@ -1,0 +1,107 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #333;
+  padding: 5rem;
+}
+
+.wrapper {
+  max-width: 140rem;
+  margin: auto;
+}
+
+.signup-container {
+  display: flex;
+  background-color: #fff;
+}
+
+.signup-image {
+  width: 50%;
+}
+
+.signup-image img {
+  width: 100%;
+}
+
+.form-container {
+  width: 50%;
+  padding: 6rem 9rem 0rem 6rem;
+}
+
+.form-container .form-group,
+.form-container .form-radio {
+  margin-bottom: 2.8rem;
+}
+
+h1 {
+  margin-bottom: 4rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form-group label,
+.form-radio > label {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.form-group input {
+  display: block;
+  width: 100%;
+  padding: 1.2rem 2rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 1rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 2rem;
+}
+
+.form-row .form-group {
+  flex-grow: 1;
+}
+
+.form-radio {
+  display: flex;
+  gap: 6rem;
+  line-height: 3rem;
+}
+
+.form-radio label:hover,
+.form-radio input:hover {
+  cursor: pointer;
+}
+
+.form-submit {
+  text-align: right;
+  margin-right: 4rem;
+}
+
+.btn {
+  padding: 1rem 1.8rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: orange;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: orange;
+  background-color: #fff;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #ccc;
+}
