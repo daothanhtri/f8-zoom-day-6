@@ -1,0 +1,58 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  max-width: 140rem;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.4rem;
+  font-weight: 600;
+  padding: 2rem 3rem;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  border-radius: 1.5rem;
+  color: aliceblue;
+  background-color: #1f6814;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.pond-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.my-pond {
+  padding: 1rem;
+  width: 33%;
+}
+
+img {
+  width: 40rem;
+  height: 30rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+img:hover {
+  box-shadow: rgb(7, 73, 16) 0px 20px 30px -10px;
+}
+
+p {
+  font-weight: 500;
+}
