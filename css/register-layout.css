@@ -97,6 +97,7 @@ h1 {
   background-color: orange;
   border: none;
   border-radius: 0.5rem;
+  transition: all ease 0.4s;
 }
 
 .btn:hover {
